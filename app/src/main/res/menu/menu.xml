@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/directbroadcastfragment"
+        android:icon="@drawable/view"
+        android:title="首页" />
+    <item
+        android:id="@+id/shortvideofragment"
+        android:icon="@drawable/sub_account"
+        android:title="视频" />
+    <item
+        android:id="@+id/dialoguefragment"
+        android:icon="@drawable/message"
+        android:title="社交" />
+    <item
+        android:id="@+id/personalfragment"
+        android:icon="@drawable/international"
+        android:title="动态" />
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DriverHelper</string>
+    <string name="foot_item">加载数据</string>
+    <string name="head_item">数据刷新</string>
+</resources>

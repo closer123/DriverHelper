@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/directbroadcastfragment">
+
+    <fragment
+        android:id="@+id/directbroadcastfragment"
+        android:name="com.example.driverhelper.fragment.DirectBroadcastFragment"
+        android:label="直播"
+        tools:layout="@layout/fragment_direct_broadcast" />
+    <fragment
+        android:id="@+id/shortvideofragment"
+        android:name="com.example.driverhelper.fragment.ShortVideoFragment"
+        android:label="视频"
+        tools:layout="@layout/fragment_short_video" />
+    <fragment
+        android:id="@+id/dialoguefragment"
+        android:name="com.example.driverhelper.fragment.DialogueFragment"
+        android:label="fragment_dialogue"
+        tools:layout="@layout/fragment_dialogue" />
+    <fragment
+        android:id="@+id/personalfragment"
+        android:name="com.example.driverhelper.fragment.PersonalFragment"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_personal" />
+</navigation>
