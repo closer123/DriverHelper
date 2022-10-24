@@ -30,7 +30,6 @@ userList=users;
         if(userList!=null&&users!=null){
             userList.addAll(users);
         }
-
     }
 
     @Override
